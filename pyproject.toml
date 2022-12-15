@@ -1,0 +1,30 @@
+[project]
+name = "dubclub-allauth"
+description = "A django-allauth provider to sign-in with DubClub"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["DubClub", "Django", "allauth", "OAuth"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Framework :: Django :: 4",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "django>4.0,<5.0",
+  "django-allauth",
+  "requests",
+]
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/DubClub-win/dubclub-allauth"
+
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
