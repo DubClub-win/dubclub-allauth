@@ -21,7 +21,9 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
-homepage = "https://github.com/DubClub-win/dubclub-allauth"
+Homepage = "https://github.com/DubClub-win/dubclub-allauth"
+Repository = "https://github.com/DubClub-win/dubclub-allauth"
+"Bug Reports" = "https://github.com/DubClub-win/dubclub-allauth/issues"
 
 [project.optional-dependencies]
 dev = [
