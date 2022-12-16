@@ -23,6 +23,11 @@ dynamic = ["version"]
 [project.urls]
 homepage = "https://github.com/DubClub-win/dubclub-allauth"
 
+[project.optional-dependencies]
+dev = [
+  "pip-tools",
+]
+
 [build-system]
 requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
